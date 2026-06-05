@@ -209,123 +209,110 @@ function Invitation() {
                 </p>
             </div>
 
-        {/* Блок ДРЕСС-КОД */}
-        <div style={{
-            paddingTop: "5rem"}}
-            >
-            <h3 style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '2rem',
-                color: '#4a3728',
-                marginBottom: '1rem',
-                textAlign: 'center'
-            }}>
-                ДРЕСС-КОД
-            </h3>
-        
-            <p style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '1rem',
-                lineHeight: '1.7',
-                color: '#555',
-                textAlign: 'center',
-                marginBottom: '0.5rem'
-            }}>
-                Мы будем рады видеть вас в элегантных нарядах
-            </p>
-        
-            <p style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '0.95rem',
-                lineHeight: '1.6',
-                color: '#777',
-                textAlign: 'center',
-                marginBottom: '0.5rem'
-            }}>
-                Для мужчин: костюм или смокинг
-            </p>
-        
-            <p style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '0.95rem',
-                lineHeight: '1.6',
-                color: '#777',
-                textAlign: 'center',
-                marginBottom: '0.5rem'
-            }}>
-                Для женщин: вечернее платье
-            </p>
-        
-            <p style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '0.95rem',
-                lineHeight: '1.6',
-                color: '#a0896b',
-                textAlign: 'center',
-                marginTop: '1rem',
-                fontStyle: 'italic'
-            }}>
-                Рекомендуемые цвета: нежные пастельные тона, пудровый, шампань, лаванда, мятный
-            </p>
-        
-            <p style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '0.9rem',
-                lineHeight: '1.6',
-                color: '#999',
-                textAlign: 'center',
-                marginTop: '0.5rem'
-            }}>
-                Пожалуйста, избегайте белого, черного и слишком ярких цветов
-            </p>
-        
-            {/* Примеры цветов */}
+            {/* Блок ДРЕСС-КОД */}
             <div style={{
-                display: 'flex',
-                justifyContent: 'center',
-                gap: '1rem',
-                flexWrap: 'wrap',
-                marginTop: '1.5rem'
-            }}>
+                paddingTop: "5rem"}}
+                >
+                <h3 style={{
+                    fontFamily: "'Playfair Display', serif",
+                    fontSize: '2rem',
+                    color: '#4a3728',
+                    marginBottom: '1rem',
+                    textAlign: 'center'
+                }}>
+                    ДРЕСС-КОД
+                </h3>
+                
+                <p style={{
+                    fontFamily: "'Playfair Display', serif",
+                    fontSize: '1rem',
+                    lineHeight: '1.7',
+                    color: '#555',
+                    textAlign: 'center',
+                    marginBottom: '1rem'
+                }}>
+                    Мы будем рады видеть вас в элегантных нарядах, которые подчеркнут особую атмосферу нашего праздника
+                </p>
+                
+                <p style={{
+                    fontFamily: "'Playfair Display', serif",
+                    fontSize: '0.95rem',
+                    lineHeight: '1.6',
+                    color: '#777',
+                    textAlign: 'center',
+                    marginBottom: '0.5rem'
+                }}>
+                    <strong>Для мужчин:</strong> брюки и рубашка, по желанию — пиджак. Просим одеться в чёрном цвете.
+                </p>
+                
+                <p style={{
+                    fontFamily: "'Playfair Display', serif",
+                    fontSize: '0.95rem',
+                    lineHeight: '1.6',
+                    color: '#777',
+                    textAlign: 'center',
+                    marginBottom: '1rem'
+                }}>
+                    <strong>Для женщин:</strong> наряды однотонного исполнения.
+                </p>
+                
+                <p style={{
+                    fontFamily: "'Playfair Display', serif",
+                    fontSize: '0.9rem',
+                    lineHeight: '1.6',
+                    color: '#a0896b',
+                    textAlign: 'center',
+                    fontStyle: 'italic'
+                }}>
+                    Буду благодарна, если при выборе нарядов на наше торжество вы придержитесь следующей палитры:
+                </p>
+                
+                {/* Примеры цветов */}
                 <div style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: '50%',
-                    background: '#f5e6d3',
-                    border: '1px solid #e0d0c0'
-                }} title="Шампань"></div>
-                <div style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: '50%',
-                    background: '#d4c5b0'
-                }} title="Бежевый"></div>
-                <div style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: '50%',
-                    background: '#e6d5b8'
-                }} title="Пудровый"></div>
-                <div style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: '50%',
-                    background: '#c8d5b9'
-                }} title="Мятный"></div>
-                <div style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: '50%',
-                    background: '#d8c4e0'
-                }} title="Лаванда"></div>
-                <div style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: '50%',
-                    background: '#f0d89e'
-                }} title="Шампанское"></div>
+                    display: 'flex',
+                    justifyContent: 'center',
+                    gap: '1rem',
+                    flexWrap: 'wrap',
+                    marginTop: '1.5rem'
+                }}>
+                    <div style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '50%',
+                        background: '#91a886',
+                        border: '1px solid #7a996b'
+                    }} title="Пастельно-зелёный"></div>
+                    <div style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '50%',
+                        background: '#8dbad8',
+                        border: '1px solid #8bb1ca'
+                    }} title="Пастельно-синий"></div>
+                    <div style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '50%',
+                        background: '#a67c52',
+                        border: '1px solid #997348'
+                    }} title="Коричневый"></div>
+                    <div style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '50%',
+                        background: '#57342a',
+                        border: '1px solid #e0d0c0'
+                    }} title="Бежевый"></div>
+                    <div style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '50%',
+                        border: '1px solid #e0d0c0',
+                        background: '#f5e6d3',
+
+                    }} title="Бежевый"></div>
+                </div>
             </div>
-        </div>
 
         {/* Декоративная линия */}
         <div style={{
