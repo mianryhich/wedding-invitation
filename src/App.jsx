@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Initation from './components/Invitation'
 import Questionnaire from './components/Questionnaire';
 import Schedule from './components/Schedule';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Initation />
       <Questionnaire />
       <Schedule />
+      <Footer />
     </div>
   );
 }
