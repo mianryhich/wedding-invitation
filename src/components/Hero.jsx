@@ -108,7 +108,7 @@ function Hero() {
           </p>
 
           <h1 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Great Vibes', cursive",
             fontSize: '4rem',
             margin: 0,
             color: '#4a3728'
@@ -117,7 +117,7 @@ function Hero() {
           </h1>
 
           <div style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Great Vibes', cursive",
             fontSize: '2.5rem',
             margin: '0.5rem 0',
             color: '#a0896b'
@@ -126,7 +126,7 @@ function Hero() {
           </div>
 
           <h1 style={{
-            fontFamily: "'Playfair Display', serif",
+            fontFamily: "'Great Vibes', cursive",
             fontSize: '4rem',
             margin: 0,
             color: '#4a3728'
