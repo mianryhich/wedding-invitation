@@ -70,13 +70,6 @@ function Navigation() {
             whiteSpace: 'nowrap'
           }}>Приглашение</a></li>
           
-          <li><a onClick={() => scrollToSection('rsvp')} style={{ 
-            cursor: 'pointer', 
-            textDecoration: 'none', 
-            color: '#333',
-            fontSize: 'clamp(0.8rem, 4vw, 1rem)',
-            whiteSpace: 'nowrap'
-          }}>Подтвердить</a></li>
 
           <li><a onClick={() => scrollToSection('questionnaire')} style={{ 
             cursor: 'pointer', 

@@ -35,7 +35,6 @@ function Schedule() {
         }}>
           <div style={{
             display: 'flex',
-            gap: '0.5rem',
             flexWrap: 'wrap'
           }}>
             <div style={{ minWidth: '120px' }}>
@@ -64,7 +63,7 @@ function Schedule() {
                 color: '#4a3728',
                 marginBottom: '0.5rem'
               }}>
-                Торжественная регистрация брака
+                Регистрация брака
               </div>
               
               {/* Адрес + ссылка */}
@@ -114,7 +113,6 @@ function Schedule() {
         <div>
           <div style={{
             display: 'flex',
-            gap: '0.5rem',
             flexWrap: 'wrap'
           }}>
             <div style={{ minWidth: '120px' }}>
@@ -157,9 +155,9 @@ function Schedule() {
                 gap: '0.5rem',
                 flexWrap: 'wrap'
               }}>
-                Банкетный зал, Владимир
+                Амакс Золотое кольцо, Владимир
                 <a 
-                  href="https://yandex.ru/maps/?text=Владимир+банкетный+зал"
+                  href="https://yandex.ru/maps/192/vladimir/?ll=40.358510%2C56.130698&mode=poi&poi%5Bpoint%5D=40.358005%2C56.131061&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D104240541434%26yclid%3D8672265009831870463&z=17.57"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

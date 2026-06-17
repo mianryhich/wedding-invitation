@@ -4,7 +4,6 @@ import Initation from './components/Invitation'
 import Questionnaire from './components/Questionnaire';
 import Schedule from './components/Schedule';
 import Footer from './components/Footer';
-import TelegramTest from './components/TelegramTest';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Questionnaire />
       <Schedule />
       <Footer />
-      <TelegramTest />
     </div>
   );
 }

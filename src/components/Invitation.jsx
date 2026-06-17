@@ -172,42 +172,6 @@ function Invitation() {
                 </p>
             </div>
 
-            {/* Блок ПОДТВЕРЖДЕНИЕ */}
-            <div style={{
-            paddingTop: "5rem"
-        }}>
-                <h3 style={{
-                    fontFamily: "'Playfair Display', serif",
-                    fontSize: '2rem',
-                    color: '#4a3728',
-                    marginBottom: '1rem',
-                    textAlign: 'center'
-                }}>
-                    ПОДТВЕРЖДЕНИЕ
-                </h3>
-            
-                <p style={{
-                    fontFamily: "'Playfair Display', serif",
-                    fontSize: '1rem',
-                    lineHeight: '1.7',
-                    color: '#555',
-                    textAlign: 'center',
-                    marginBottom: '1rem'
-                }}>
-                    Пожалуйста, подтвердите свое присутствие до <strong>01.01.2026</strong>
-                </p>
-            
-                <p style={{
-                    fontFamily: "'Playfair Display', serif",
-                    fontSize: '1.3rem',
-                    lineHeight: '1.7',
-                    color: '#c2a77a',
-                    textAlign: 'center',
-                    fontStyle: 'italic'
-                }}>
-                    ЖДЕМ ВАС!
-                </p>
-            </div>
 
             {/* Блок ДРЕСС-КОД */}
             <div style={{
