@@ -206,7 +206,7 @@ function Invitation() {
                     textAlign: 'center',
                     marginBottom: '0.5rem'
                 }}>
-                    <strong>Для мужчин:</strong> брюки и рубашка, по желанию — пиджак. Просим одеться в чёрном цвете.
+                    <strong>Для мужчин:</strong> брюки и рубашка. Пиджак, галстук, бабочка —  по желанию.
                 </p>
                 
                 <p style={{
@@ -257,8 +257,22 @@ function Invitation() {
                         width: '45px',
                         height: '45px',
                         borderRadius: '50%',
-                        background: '#a67c52',
-                        border: '1px solid #997348'
+                        background: '#285f92',
+                        border: '1px solid #29648b'
+                    }} title="Пастельно-синий"></div>
+                    <div style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '50%',
+                        border: '1px solid #eebccb',
+                        background: '#e6c4c9',
+                    }} title="Розовый"></div>
+                    <div style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '50%',
+                        background: '#e6cdb7',
+                        border: '1px solid #d4bca8'
                     }} title="Коричневый"></div>
                     <div style={{
                         width: '45px',
@@ -271,10 +285,10 @@ function Invitation() {
                         width: '45px',
                         height: '45px',
                         borderRadius: '50%',
-                        border: '1px solid #e0d0c0',
-                        background: '#f5e6d3',
-
+                        background: '#1d1d1d',
+                        border: '1px solid #e0d0c0'
                     }} title="Бежевый"></div>
+
                 </div>
             </div>
 

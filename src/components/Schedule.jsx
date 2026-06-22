@@ -44,7 +44,7 @@ function Schedule() {
                 fontWeight: 'bold',
                 color: '#c2a77a'
               }}>
-                13:00
+                12:30
               </div>
               <div style={{
                 fontFamily: "'Playfair Display', serif",
@@ -92,7 +92,7 @@ function Schedule() {
                   onMouseEnter={(e) => e.target.style.color = '#4a3728'}
                   onMouseLeave={(e) => e.target.style.color = '#c2a77a'}
                 >
-                  Открыть на карте ↗
+                  Открыть на карте
                 </a>
               </div>
               
@@ -122,7 +122,7 @@ function Schedule() {
                 fontWeight: 'bold',
                 color: '#c2a77a'
               }}>
-                17:00
+                18:00
               </div>
               <div style={{
                 fontFamily: "'Playfair Display', serif",
@@ -170,7 +170,7 @@ function Schedule() {
                   onMouseEnter={(e) => e.target.style.color = '#4a3728'}
                   onMouseLeave={(e) => e.target.style.color = '#c2a77a'}
                 >
-                  Открыть на карте ↗
+                  Открыть на карте
                 </a>
               </div>
               

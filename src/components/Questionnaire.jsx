@@ -32,6 +32,25 @@ function Questionnaire() {
             }}>
                 Это поможет нам организовать праздник максимально комфортно для вас
             </p>
+            <p style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: '1rem',
+                color: '#c2a77a',
+                textAlign: 'center',
+                marginBottom: '2rem',
+                fontStyle: 'italic'
+            }}>
+                Если не отображается форма, отключите ВПН или перейдите по 
+                <a style={{
+                    color: '#c2a77a',
+                    fontSize: '0.85rem',
+                    textDecoration: 'none',
+                    borderBottom: '1px solid #c2a77a',
+                    padding: '0 0 2px 0'
+                  }}
+                    target="_blank"
+                   href="https://forms.yandex.ru/u/6a31483e5056902ea718ef79/"> ссылке</a>
+            </p>
 
             <div style={{
                 maxWidth: '900px',
